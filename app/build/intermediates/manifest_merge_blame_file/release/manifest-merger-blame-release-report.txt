@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.szukajka"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:5:5-21:19
+12        android:allowBackup="true"
+12-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] C:\Users\woj\.gradle\caches\transforms-2\files-2.1\8f8ab13dc8f4e84e14a8bb3d9ac92bc4\core-1.0.1\AndroidManifest.xml:22:18-86
+14        android:icon="@mipmap/ic_launcher"
+14-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:7:9-43
+15        android:label="@string/app_name"
+15-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:8:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:9:9-54
+17        android:supportsRtl="true"
+17-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:10:9-35
+18        android:theme="@style/AppTheme" >
+18-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:11:9-40
+19        <activity android:name="com.example.szukajka.WprowadzanieActivity" />
+19-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:12:9-67
+19-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:12:19-55
+20        <activity android:name="com.example.szukajka.MainActivity" >
+20-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:13:9-20:20
+20-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:13:19-47
+21            android:windowSoftInputMode="adjustResize"
+22            <intent-filter>
+22-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:15:13-19:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:16:17-69
+23-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:16:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:18:17-77
+25-->D:\AndroidStudioProjects\Szukajka\app\src\main\AndroidManifest.xml:18:27-74
+26            </intent-filter>
+27        </activity>
+28    </application>
+29
+30</manifest>
